@@ -2,7 +2,7 @@ import express from 'express';
 import 'dotenv/config';
 import basicAuth from 'express-basic-auth';
 import bodyParser from 'body-parser';
-import printRoutes from './routes/print';
+import printRoutes from './routes/print.js';
 
 const app = express();
 
